@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'KonstantGrotesk';
+    src: url('./fonts/KonstantGrotesk.woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Regular.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Medium.woff2');
+    font-weight: 500;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+h1, h2, .block_title {
+    font-family: 'KonstantGrotesk';
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+input, textarea {
+    border: none;
+    outline: 0;
+}
+
+textarea {
+    min-height: 40px;
+    max-height: 200px;
+    resize: none;
+    overflow: hidden;
+}
+
+hr {
+    margin: 0;
+}
+
+.block_title {
+    font-size: 0.563rem;
+}
+
+.main_wrapper {
+    display: flex;
+    column-gap: 24px;
+    padding: 51px 24px;
+}
+
+.main__blocks_wraper {
+    margin: 25px 0 0 0;
+    display: flex;
+    column-gap: 20px;
+}
+
+.contacts {
+    margin: 32px 0 0 0;
+}
+
+.contacts__list, .experience__list, .skills__list, .languages__list {
+    margin: 18px 0 0 0;
+}
+
+.contacts__element {
+    display: block;
+}
+
+.contacts__link {
+    color: #000;
+    font-family: 'KonstantGrotesk';
+    font-size: 0.563rem;
+}
+
+.experience__project_name {
+    font-size: 0.75rem;
+}
+
+.experience__project_decription {
+    font-size: 0.563rem;
+}
+
+
+
